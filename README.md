@@ -55,13 +55,6 @@ $ conda activate struct-mhc-dev
 
 # 1) generate peptides for a PDB structure (e.g. 7KGP → HLA‑A*02:01)
 $ bash scripts/run_rfdiffusion.sh 7KGP A0201
-
-# 2) optimize sequences & filter with AF2
-$ bash scripts/postprocess_pipeline.sh outputs/7KGP/
-
-# 3) evaluate predictors & plot figures
-$ python scripts/evaluate_predictors.py --allele A0201 \
-        --designs outputs/7KGP/top_designs.csv
 ```
 
 Detailed instructions are provided in each script header.
