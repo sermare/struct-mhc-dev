@@ -35,7 +35,6 @@ struct-mhc-dev/
 ├── data/                   # intermediate tables, model predictions
 ├── figures/                # publication‑quality plots & logos
 ├── jupyter-notebook/       # exploratory notebooks (ICML, embeddings, etc.)
-├── scripts/                # RFdiffusion ⇨ ProteinMPNN ⇨ AF2 pipeline
 └── README.md               # you are here
 ```
 
